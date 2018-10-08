@@ -65,7 +65,7 @@ In term of technology, the automaton is a docker container that synchronises wit
 
 ### Language library
 
-Liquidity language library is a convenient way to communication with the automaton. It wraps the provided REST API using language specific feature. For now, the language library is only available for Node.JS. If you have build an implementation for a language you love, you can submit an issue on [liquidity sdk repo](https://github.com/liquidity-network/liquidity-sdk).
+Liquidity language library is a convenient way to communication with the automaton. It wraps the provided REST API using language specific feature. For now, the language library is only available for Node.JS. If you have build an implementation for a language you love, you can submit an issue on [liquidity sdk repo](https://github.com/liquidity-network/liquidity-sdk.git).
 
 In the transfer sequence described above, the user has to call the automaton on a regular basis in order to know if it still has any transfers pending. This active wait is not convenient and doesn't integrate well within an application flow. To leverage it, Node.JS library has created a transfer method that returns a promise which is resolved when the transfer has been performed.
 
